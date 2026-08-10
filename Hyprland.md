@@ -48,7 +48,7 @@ cd hyprland
 bash setup.sh #note that this script will also install psudoFont Liga Mono, which I used in this rice
 ```
 
-I recommend to reboot once after all, and you're good to go ;>
+I recommend reboot once after all, and you're good to go ;>
 
 ---
 
