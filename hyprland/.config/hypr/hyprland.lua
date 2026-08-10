@@ -38,7 +38,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal    = "kitty"
 local fileManager = "ranger ~"
-local menu        = "rofi"
+local menu        = "rofi -show drun -show-icons"
 
 
 -------------------
@@ -267,17 +267,14 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(terminal.." -e "..fileManager))
 hl.bind(mainMod .. " + W", hl.dsp.window.close())
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + D", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("bash ~/theme-switcher-hyprland.sh"))
-hl.bind("ALT + space", hl.dsp.exec_cmd("rofi -show drun -show-icons"))
+hl.bind("ALT + space", hl.dsp.exec_cmd(menu))
 hl.bind("CTRL + space", hl.dsp.exec_cmd("wlogout"))
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + h",  hl.dsp.focus({ direction = "left" }))

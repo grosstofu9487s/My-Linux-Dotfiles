@@ -30,4 +30,53 @@ https://github.com/ful1e5/Bibata_Cursor
 
 ---
 ## 4. Copy Dotfiles
-Now is the interesting part, you can do this in Hyprland session or just in tty. 
+Now is the interesting part, you can do this in Hyprland session or just in tty. first, clone this repository and cd into it
+```bash
+git clone https://github.com/grosstofu9487s/My-Linux-Dotfiles.git
+cd My-Linux-Dotfiles
+```
+
+and move the theme color data and wallpaper into your *home* dictionary
+```bash
+mv theme_colour.json ~
+mv wallpaper ~
+```
+
+Since we're on Hyprland, we'll have to copy the Hyprland dotfiles into your *.config* folder, luckily, I already made a little bash file to do it for you, so what you need to do is just cd into *hyprland* and run it.
+```bash
+cd hyprland
+bash setup.sh #note that this script will also install psudoFont Liga Mono, which I used in this rice
+```
+
+I recommend to reboot once after all, and you're good to go ;>
+
+---
+
+## 5. Keybinds
+I have modified the default Hyprland keybinds, if you got your own then make sure you have edited the **hyprland.lua**, and if you didn't and you want to give my keybinds a try then check the charts below:
+
+| if you pressed | Hyprland will              |
+|----------------|----------------------------|
+| alt + space    | open app launcher (rofi)   |
+| ctrl + space   | open logout menu (wlogout) |
+
+| if you pressed *MainMod with | Hyprland will                                                           |
+|---------------------------|-------------------------------------------------------------------------|
+| Q                         | open terminal (kitty)                                                   |
+| E                         | open file manager (ranger)                                              |
+| W                         | close current window                                                    |
+| F                         | float current window                                                    |
+| D                         | split current layout (hard to explain you can just try it)              |
+| space                     | open theme switcher                                                     |
+| h                         | focus window on the left                                                |
+| l                         | focus window on the right                                               |
+| k                         | focus window on the up                                                  |
+| j                         | focus window on the down                                                |
+| arrow key left            | move to previous workspace                                              |
+| arrow key right           | move to next workspace                                                  |
+| numbers                   | move to the workspace depend on what number you pressed                 |
+| numbers + shift           | move current windows to the workspace depend on what number you pressed |
+| left mouse button         | move current window                                                     |
+| right mouse button        | resize current window                                                   |
+
+*MainMod: Super key (windows key)
