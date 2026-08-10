@@ -1,0 +1,3 @@
+@define-color Accent #0045cb;
+@define-color Border alpha(@Accent, 0.75);
+@define-color Background #00142d;
