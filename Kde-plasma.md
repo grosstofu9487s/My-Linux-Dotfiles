@@ -55,6 +55,8 @@ Well it doesn't means that you must use these programs, but if you didn't instal
 And remember to use the config file in the **kde_plasma/.config** folder if you installed the packages, use them by simply copy all the folder in **kde_plasma/.config** into **~/.config**.
 
 *I use rofi instead of krunner just because krunner is a bit slow for me, so if you want to use rofi to replace krunner you can unbind the shortcut for krunner and bind them for command ```rofi -show drun```*
+</br></br>
+*if you want to use wlogout, make sure to modify the wlogout's style.css file (~/.config/wlogout/style.css), edit it by change all the **USER** to your user name.*
 
 ---
 ## 8. Keybinds

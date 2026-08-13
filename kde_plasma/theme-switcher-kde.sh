@@ -14,11 +14,14 @@ if [ -f "$WallpaperPath/$SelectedTheme" ]; then
 	sed -i -e 's/bg0:.*/bg0: '$BackgroundColor'F2;/' -e 's/bg1:.*/bg1: '$BackgroundColor';/' -e 's/bg3:.*/bg3: '$AccentColor';/' -e 's/text:.*/text: '$TextColor';/' ~/.config/rofi/colour.rasi
 	#change the colors for rofi
 
+	sed -i -e 's/Accent .*/Accent '$AccentColor';/' -e 's/Background .*/Background '$BackgroundColor';/' ~/colour.css
+	#change the texts and background color fpr wlogout
+
 	for file in .config/wlogout/icons/*
 	do
 		sed -i 's/style="fill:.*"/style="fill:'$AccentColor'"/g' "$file"
 	done
-	#change the colors for wlogout
+	#change the icons colors for wlogout
 	
 	sed -i -e 's/foreground\t.*/foreground\t'$TextColor'/' -e 's/background\t.*/background\t'$BackgroundColor'/' -e 's/color4\t.*/color4\t'$AccentColor'/' -e 's/color2\t.*/color2\t'$AccentColor'/' ~/.config/kitty/kitty.conf
 	#change the colors for kitty
