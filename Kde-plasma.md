@@ -58,7 +58,7 @@ And remember to use the config file in the **kde_plasma/.config** folder if you 
 
 ---
 ## 8. Keybinds
-This step is only for the themes-switcher, I recommend bind **super + space** for the themes-switcher script, and also remember to put **theme-switcher-kde.sh** and **theme-colour.json** and folder **wallpaper** in your **$HOME** path to make it work. otherwise you can edit the script to match the path you want.
+This step is only for the themes-switcher, I recommend bind **super + space** for the themes-switcher script, and also remember to put **theme-switcher-kde.sh** (main script), **theme-colour.json** (all the theme colors), **colour.css** (for wlogout) and folder **wallpaper** (yes) in your **$HOME** path to make it work. otherwise you can edit the script to match the path you want.
 
 ---
 ## 9. fastfetch
