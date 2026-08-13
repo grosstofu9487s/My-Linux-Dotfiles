@@ -1,0 +1,80 @@
+{
+    "Andromeda.jpg": {
+        "accent-color": "#b88e64",
+        "background-color": "#071926",
+        "text-color": "#fefefe",
+        "KDE-colors": "Andromeda"
+    },
+    "Bluerose.jpg": {
+        "accent-color": "#0045cb",
+        "background-color": "#00142d",
+        "text-color": "#fefefe",
+        "KDE-colors": "Bluerose"
+    },
+    "Comet.jpg": {
+        "accent-color": "#1055ba",
+        "background-color": "#061538",
+        "text-color": "#fefefe",
+        "KDE-colors": "Comet"
+    },
+    "Ghost.jpg": {
+        "accent-color": "#557d7b",
+        "background-color": "#0e1414",
+        "text-color": "#fefefe",
+        "KDE-colors": "Ghost"
+    },
+    "je t_aime1.jpg": {
+        "accent-color": "#b16a40",
+        "background-color": "#000000",
+        "text-color": "#333333",
+        "KDE-colors": "JeT_aime1"
+    },
+    "je t_aime2.jpg": {
+        "accent-color": "#f32333",
+        "background-color": "#181718",
+        "text-color": "#fefefe",
+        "KDE-colors": "JeT_aime2"
+    },
+    "Next Color Planet.jpg": {
+        "accent-color": "#72a0ff",
+        "background-color": "#dddddd",
+        "text-color": "#4568bf",
+        "KDE-colors": "NextColorPlanet"
+    },
+    "Starry Jet.jpg": {
+        "accent-color": "#e0e0ff",
+        "background-color": "#021b43",
+        "text-color": "#333333",
+        "KDE-colors": "StarryJet"
+    },
+    "Stellar-STELLAR.jpg": {
+        "accent-color": "#b99067",
+        "background-color": "#252525",
+        "text-color": "#fefefe",
+        "KDE-colors": "StellarSTELLAR"
+    },
+    "バイバイレイニー.jpg": {
+        "accent-color": "#7fcfef",
+        "background-color": "#1f1f1e",
+        "text-color": "#fefefe",
+        "KDE-colors": "ByeByeRainy"
+    },
+    "天球、彗星は夜を跨いで.jpg": {
+        "accent-color": "#826dac",
+        "background-color": "#17182d",
+        "text-color": "#fefefe",
+        "KDE-colors": "Tenkyu"
+    },
+    "自分勝手 Dazzling.jpg": {
+        "accent-color": "#d1bc77",
+        "background-color": "#4d0606",
+        "text-color": "#fefefe",
+        "KDE-colors": "Dazzling"
+    },
+    "駆けろ.jpg": {
+        "accent-color": "#fee76b",
+        "background-color": "#0a4f6c",
+        "text-color": "#0a4f6c",
+        "KDE-colors": "Kakero"
+    }
+}

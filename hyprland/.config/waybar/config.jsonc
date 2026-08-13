@@ -8,7 +8,9 @@
     // Choose the order of the modules
     "modules-left": [
 	"custom/power",
+	"custom/separator",
         "hyprland/workspaces",
+	"custom/separator",
 	"hyprland/window"
     ],
     "modules-center": [
@@ -16,13 +18,18 @@
     ],
     "modules-right": [ 
 	"hyprland/language",
-        "network",
-        "pulseaudio",
-        "backlight",	
+        "custom/separator",
+	"network",
+        "custom/separator",
+	"pulseaudio",
+        "custom/separator",
+	"backlight",	
+	"custom/separator",
 	"cpu",
         "memory",
         "temperature",
-        "battery"
+        "custom/separator",
+	"battery"
     ],
     // Modules configuration
     // "sway/workspaces": {
@@ -41,6 +48,11 @@
     //         "default": ""
     //     }
     // },
+    "custom/separator": {
+    	"format": "|",
+	"interval": "once",
+	"tooltip": false
+    },
     "hyprland/workspaces": {
     	"all-outputs": true,
 	"persistent-workspaces": {

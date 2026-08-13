@@ -1,4 +1,4 @@
-@import url('/home/USER/colour.css')
+@import url('/home/grosstofu/colour.css');
 
 * {
     font-family: "psudoFont Liga Mono", 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
@@ -7,15 +7,11 @@
 
 window#waybar {
     background-color: alpha(@Background, 0.7);
-    border-bottom: 3px solid @Border;
+    border-bottom: 3px solid @Border; 
     color: @Accent;
     /* border-opacity: 0.25; */
     transition-property: background-color;
     transition-duration: .5s;
-}
-
-window#waybar.hidden {
-    opacity: 0.2;
 }
 
 /*
@@ -77,18 +73,26 @@ button:hover {
 }
 
 #battery {
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
 #backlight {
     margin-left: 15px;
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
-#cpu,
+#cpu {
+    margin-left: 15px
+}
+
+#temperature {
+    margin-right: 15px
+}
+
 #memory {
-    margin: 0 2px;
+    margin-left: 2px;
+    margin-right: 2px
 }
 
 #window,
