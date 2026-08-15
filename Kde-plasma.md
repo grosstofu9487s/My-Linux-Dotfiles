@@ -49,12 +49,12 @@ and apply it in the system settings page.
 
 ---
 ## 7. Install Packages and theme switcher
-Like I mentioned in step 5, you can install all color themes and use themes-switcher to swich between them. The themes-switcher can not only change the kde color-schemes but change program's color theme include rofi, wlogout, kitty, so I recommand you also install these packages to have the full experience of the themes-switcher.
+Like I mentioned in step 5, you can install all color themes and use themes-switcher to swich between them. The themes-switcher can not only change the kde color-schemes but change program's color theme include **rofi**, **wlogout**, **kitty**, so I recommand you also install these packages to have the full experience of the themes-switcher.
 ```bash
 sudo dnf install wlogout kitty rofi
 #fedora btw, if you use other distro remember to change the package manager to your distro's
 ```
-Well it doesn't means that you must use these programs, but if you didn't install these make sure to modify the switcher's script to make it work, for example you didn't install rofi, then remove the command that changes rofi's color theme. (Don't worry, I have already do the comment for the commands, but the themes-swticher itself is work on rofi so you must install rofi if you want to use the theme switcher.)
+Well it doesn't means that you must use these programs, but if you didn't install these make sure to modify the switcher's script to make it work, for example you didn't install rofi, then remove the command that changes rofi's color theme. *(Don't worry, I have already do the comment for the commands, but the themes-swticher itself is work on rofi so you must install rofi if you want to use the theme switcher.)*
 
 And remember to use the config file in the **kde_plasma/.config** folder if you installed the packages, use them by simply copy all the folder in **kde_plasma/.config** into **~/.config**.
 
