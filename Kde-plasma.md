@@ -9,9 +9,11 @@ git clone https://github.com/grosstofu9487s/My-Linux-Dotfiles.git
 ```
 now you will get a folder named **My-Linux_Dotfiles** with all the dotfiles in it.
 
+Before we go to the next step, put **wallpaper** folder, **Still_Still_Stellar.png**, **theme_colour.json** to your home dictionary.
+
 ---
 ## 3. Install Icons
-Now we're in the folder, You can install the **monochrome-statusonly** icons pack by simply drag and drop **monochrome-statusonly.tar.gz** into the system setting page. Remeber to apply the settings. </br></br>
+Now we're in the **kde_plasma** folder, You can install the **monochrome-statusonly** icons pack by simply drag and drop **monochrome-statusonly.tar.gz** into the system setting page. Remeber to apply the settings. </br></br>
 *This icons pack is a modified version of ****Yet Another Monochrome Icon****, means that I didn't make these icons at all, what I did is use only the system trays icons and keep the folder and apps icons of Breeze. If you're interested in the original icons pack here is the link: [Yet Another Monochrome Icon](https://store.kde.org/p/2303161)* 
 
 ---
