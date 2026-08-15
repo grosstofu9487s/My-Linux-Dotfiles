@@ -33,7 +33,7 @@ konsave -a "Tofu-kde-layout"
 This step is for the color theme that matchs the wallpaper, you can just pick a color theme and wallpaper you like and apply it, or you can install them all and use my theme-switcher script to swtich between them.</br>
 The color themes location is in **~/.local/share/color-schemes**, put the files in **KDE-colors** into here to use it as your color theme.
 
-*2026/8/15 edited: I added a No Color-Tint mode, means that you will only get Accent color for themes but no tinting colors for others like background color if you want to enable it make sure you have **No Color-Tint** in your wallpaper folder and **NoColorTint.colors** in **~/.local/share/color-schemes** folder. you can use it in the theme-switcher script which I'll mention it later.*
+*2026/8/15 edited: I added a No Color-Tint mode, means that you will only get Accent color for themes but no tinting colors for others like background color, if you want to enable it make sure you have **No Color-Tint** in your wallpaper folder and **NoColorTint.colors** in **~/.local/share/color-schemes** folder. you can use it in the theme-switcher script which I'll mention it later.*
 
 ---
 ## 6. Install psudo Font
